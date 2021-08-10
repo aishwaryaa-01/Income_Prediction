@@ -132,7 +132,9 @@ data.describe()
 
 * White people get to earn more than Black people.
 
-### Converting all Catagorical Values to Numerical Values.
+### Converting all Catagorical Values to Numerical Values:
+
+Converting objects to int type.
 
 ### Model Implementation:
 
@@ -153,7 +155,7 @@ print('Accuracy of Decision Tree classifier on test set: {:.2f}'
      .format(clf.score(X_test, y_test)))
 ```
 
-**DecisionTree accuracy_score: 
+
 
 #### Accuracy of Decision Tree classifier on training set: 0.98
 #### Accuracy of Decision Tree classifier on test set: 0.82
